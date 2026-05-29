@@ -1,0 +1,13 @@
+- Always write code in Roman English.
+- Use TypeScript for all components.
+- Style using Tailwind CSS.
+- Keep components small and reusable (Atomic Design).
+- Always validate inputs: Check for empty, negative, or invalid data types before saving.
+- If a room type is not available, hide it completely (Dynamic Visibility).
+- Maintain consistent padding, margins, and dark mode theme.
+- Add descriptive comments to all custom business logic.
+- For all forms, use inline field-level validation (red border + short helper text) and disable Save until errors are fixed.
+- Centralize reusable validation/sanitization logic in shared utils and clamp numeric business inputs to non-negative values.
+- Before applying changes, think: "Does this break the Transport or Visa modules?"
+- Every time you modify a file, check if you have violated any rule in .cursorrules.
+- If you identify a better coding pattern during this task, suggest adding it to .cursorrules before finalizing.
